@@ -1,0 +1,258 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="keywords" content="">
+      
+
+
+<title>São Joaquim da Grama</title>
+<style>
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: #222;
+	font-family: 'Copperplate';
+}
+
+.menu ul{
+
+	list-style: none;
+	position: relative;
+}
+
+.menu ul li{
+	width: 150px;
+	float: left;
+}
+
+.menu a{
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #222;
+	color: #fff;
+}
+
+.menu ul ul{
+	position: absolute;
+	visibility: hidden;
+}
+
+.menu ul li:hover ul{
+	visibility: visible;
+}
+
+.menu a:hover{
+	background-color:	#323232;
+	color: #7783fb;
+}
+
+.menu ul ul li{
+	float: none;
+	border-bottom: solid 1px rgb(124, 124, 120);
+}
+
+.menu ul ul li{
+	float: none;
+	border-bottom: solid 1px rgb(237, 253, 16);
+}
+
+.menu ul ul li a{
+	background-color: #5b6060;
+}
+
+label [for="bt_menu"]{
+	padding: 5px;
+	background-color: #222;
+	color: #fff;
+	font-family: "Copperplate";
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+}
+
+
+#bt_menu{
+display: none;
+}
+
+label[for="bt_menu"]{
+	display: none;
+}
+
+@media(max-width: 800px){
+label[for="bt_menu"]{
+	display: block;
+}
+
+#bt_menu:checked ~ .menu{
+	margin-left: 0;
+}
+
+.menu{
+	margin-top: 5px;
+	margin-left: -100%;
+	transition: all .4s;
+}
+
+.menu ul li{
+	width: 100%;
+	float: none;
+}
+
+.menu ul ul{
+	position: static;
+	overflow: hidden;
+	max-height: 0;
+	transition: all .4s;
+}
+
+.menu ul li:hover ul{
+	height: auto;
+max-height: 200px;
+}
+}
+
+div#top {
+position: fixed-top;
+top: 0px;
+left:0px;
+	}
+
+div#topo {
+
+text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+position:unset;
+top: 10px;
+left: 10px;
+background-color: #7783fb;
+background-image: url("mudas.jpg")
+font-style: ;
+font-family: Copperplate;
+font-size: ;
+
+}
+  
+div#campo {
+
+text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+position:unset;
+top: 10px;
+left: 10px;
+background-color: #edf3f3;
+background-image: url("mudas.jpg")
+font-style: ;
+font-family: Copperplate;
+font-size: ;
+
+}
+
+div#rodape {
+
+text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+position:unset;
+top: 10px;
+left: 10px;
+background-color: #d3dddd;
+background-image: url("mudas.jpg")
+font-style: ;
+font-family: Copperplate;
+font-size: ;
+
+}
+  
+  
+div#fim {
+
+text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+position:unset;
+top: 10px;
+left: 10px;
+background-color: 	#4700b3;
+background-image: url("mudas.jpg")
+font-style: ;
+font-family: Copperplate;
+font-size: ;
+color: ;
+}  
+	
+</style>
+
+
+
+
+<body background="" "fixed">
+  
+<div id="topo">
+ #
+  </div>
+
+<div id="top">
+
+<input type="checkbox" id="bt_menu">
+<label for="bt_menu"><h1>&#9776;</h1></label>
+
+
+	<nav class="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">Documentação</a>
+				<ul>
+					<li><a href="matriculas.html">Matrículas Reg.Imóveis</a></li>
+					<li><a href="escrituras.html">Escrituras Públicas</a></li>
+					<li><a href="declaracoes.html">Declarações Receita Fed.</a></li>
+
+				</ul>
+			</li>
+			
+			<li><a href="#">Ações</a>
+				<ul>
+					<li><a href="decisoes.html">Decisões</a></li>
+					<li><a href="peticoes.html">Petições</a></li>
+					<li><a href="procuracoes.html">Procurações</a></li>
+
+				</ul>
+			</li>
+			
+
+		</ul>
+
+
+	</nav>
+
+</div>
+  
+  <div id="campo">
+# URGENTE 20/09/2021
+	  
+<embed src="/decisoes/17_09_2021declino_de_competencia.pdf" type="application/pdf" width="100%" height="80%">	<br>	  
+	  <embed src="/decisoes/2021_Maria_Fatima.pdf" type="application/pdf" width="100%" height="80%">		  <br>
+	    <embed src="/decisoes/02_05_2019_no_interdito.pdf" type="application/pdf" width="100%" height="80%">		 <br>
+     <embed src="/decisoes/26_01_2021_no_interdito.pdf" type="application/pdf" width="100%" height="80%">		 <br>
+  </div>
+  
+  <div id="rodape">
+#
+  </div>
+  
+  <div id="topo">
+#
+  </div>
+
+ <div id="fim">
+São Joaquim da Grama Pastoral
+  </div>
+
+</body>
+
+</html>
